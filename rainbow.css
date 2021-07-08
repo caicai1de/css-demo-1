@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: white;
+}
+.rainbow {
+  height: 200px;
+  overflow: hidden;
+}
+.rainbow div {
+  overflow: hidden;
+}
+.rainbow > div {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  border-radius: 50%;
+}
+.rainbow > div > div {
+  background-color: hsl(60, 75%, 75%);
+  height: 360px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div {
+  background-color: hsl(120, 75%, 75%);
+  height: 320px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div {
+  background-color: hsl(180, 75%, 75%);
+  height: 280px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div > div {
+  background-color: hsl(240, 75%, 75%);
+  height: 240px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div > div > div {
+  background-color: hsl(300, 75%, 75%);
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div > div > div > div {
+  background-color: hsl(330, 75%, 75%);
+  height: 160px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div > div > div > div > div {
+  background-color: hsl(330, 100%, 100%);
+  height: 120px;
+  margin: 20px;
+  border-radius: 50%;
+}
